@@ -1,0 +1,243 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;;
+}
+
+body {
+  background-color: white;
+  color: black;
+}
+
+header {
+  position: fixed; /*Cabeçalho fixo*/
+  left: 0; /*Cabeçalho fixo*/
+  top: 0; /*Cabeçalho fixo*/
+  width: 100%;
+  height: 105px;
+  background-image: linear-gradient(to right bottom, #0d1d67, #3d094c, #470032, #44001c, #3b0808);
+  color: white;
+}
+
+header .menu {
+  display: flex;
+  justify-content: space-around;
+}
+
+header .menu ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+
+header .menu li {
+  margin: 15px;
+}
+
+header .menu li a:hover{
+  color: rgb(174, 169, 169);
+  transition: 0.5s;
+}
+
+header a {
+  color: white;
+  text-decoration: none;
+  font-size: larger;
+}
+
+header h1 #logo-copa{
+  width: 200px;
+  height: 100px;
+}
+
+.container {
+  width: 90%;
+  margin-left: 5%;
+  margin-top: 105px; /*Cabeçalho fixo*/
+}
+
+
+.tabela-times {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 20%;
+  justify-content: space-around;
+}
+
+.tabela-times table {
+  border-collapse: collapse;
+  text-align: center;
+  width: 600px;
+  height: 450px;
+  margin-bottom: 30px;
+}
+
+.thead {
+  font-size: 20px;
+}
+
+.time-ajax table tr:nth-child(even) {
+  background-color: rgb(239, 226, 226);
+  /* tr:nth-child(even) {background: #CCC}
+  tr:nth-child(odd) {background: #FFF} */
+}
+
+.time-arsenal table tr:nth-child(even) {
+  background-color: rgb(221, 228, 222);
+  /* tr:nth-child(even) {background: #CCC}
+  tr:nth-child(odd) {background: #FFF} */
+}
+
+.time-besiktas table tr:nth-child(even) {
+  background-color: rgb(190, 190, 190);
+  /* tr:nth-child(even) {background: #CCC}
+  tr:nth-child(odd) {background: #FFF} */
+}
+
+.time-mercenarios table tr:nth-child(even) {
+  background-color: rgb(231, 235, 179);
+  /* tr:nth-child(even) {background: #CCC}
+  tr:nth-child(odd) {background: #FFF} */
+}
+
+.time-otopatama table tr:nth-child(even) {
+  background-color: rgb(193, 205, 231);
+  /* tr:nth-child(even) {background: #CCC}
+  tr:nth-child(odd) {background: #FFF} */
+}
+
+.tabela-times h1 {
+  width: 100%;
+}
+
+.tabela-times caption {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.titulos-principais {
+  font-size: 50px;
+  font-weight: 900;
+  margin-top: 50px;
+  color: #0d1d67;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.titulo-tabelas {
+  font-size: 40px;
+  margin-right: 10px;
+  font-weight: 400;
+  color: #0d1d67;
+}
+
+.tamanho-img-escudo{
+  width: 70px;
+  height: 70px;
+}
+
+.nome-time-escudo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tabela-centralizar {
+  display: flex;
+  justify-content: center;
+}
+
+.tabela-classificacao table {
+  border-collapse: collapse;
+  text-align: center;
+  width: 80%;
+  height: 300px;
+}
+
+.tabela-classificacao table tr:nth-child(even) {
+  background-color: rgb(249, 247, 247);
+}
+
+.time-classificacao {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.div-jogo-semana {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 70px;
+}
+
+.horario-jogo {
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.div-jogo-semana table {
+  width: 800px;
+  text-align: center;
+  height: 100px;
+}
+
+.div-jogo-semana table caption h4 {
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+.dia-jogo {
+  margin-bottom: 20px;
+}
+
+.div-jogo-semana table tbody tr td {
+  font-size: 22px;
+}
+
+.logo-time-menor {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo-time-menor-final {
+  margin-top: 25px;
+}
+
+.logo-time-menor img {
+  width: 40px;
+  height: 40px;
+}
+
+.artilharia-tabelas {
+  display: flex;
+  justify-content: space-around;
+}
+
+.artilharia table {
+  width: 500px;
+  height: 200px;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+.artilharia table caption h4 {
+  font-size: 30px;
+  margin-bottom: 40px;
+}
+
+.artilharia-tabelas table tr:nth-child(even) {
+  background-color: rgb(249, 247, 247);
+}
+
+footer {
+  display: flex;
+  width: 100%;
+  height: 60px;
+  background-image: linear-gradient(to left top, #0d1d67, #3d094c, #470032, #44001c, #3b0808);
+  color: white;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
