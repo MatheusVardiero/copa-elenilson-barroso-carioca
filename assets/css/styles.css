@@ -85,26 +85,18 @@ header h1 #logo-copa{
 
 .time-arsenal table tr:nth-child(even) {
   background-color: rgb(221, 228, 222);
-  /* tr:nth-child(even) {background: #CCC}
-  tr:nth-child(odd) {background: #FFF} */
 }
 
 .time-besiktas table tr:nth-child(even) {
   background-color: rgb(190, 190, 190);
-  /* tr:nth-child(even) {background: #CCC}
-  tr:nth-child(odd) {background: #FFF} */
 }
 
 .time-mercenarios table tr:nth-child(even) {
   background-color: rgb(231, 235, 179);
-  /* tr:nth-child(even) {background: #CCC}
-  tr:nth-child(odd) {background: #FFF} */
 }
 
 .time-otopatama table tr:nth-child(even) {
   background-color: rgb(193, 205, 231);
-  /* tr:nth-child(even) {background: #CCC}
-  tr:nth-child(odd) {background: #FFF} */
 }
 
 .tabela-times h1 {
@@ -240,4 +232,42 @@ footer {
   justify-content: center;
   align-items: center;
   margin-top: 50px;
+}
+
+/*Responsividade*/
+@media only screen and (max-width: 480px) {
+  
+  .tabela-times table {
+  justify-content: flex-start;
+  width: 280px;
+  overflow-x: hidden;
+  }
+
+  .titulos-principais {
+    font-size: 30px;
+  }
+
+  .tabela-times caption {
+    font-size: 50px;
+    margin-bottom: 20px;
+  }
+
+  .titulo-tabelas {
+    font-size: 30px;
+  }
+
+  .tabela-centralizar {
+    display: flex;
+    justify-content: flex-start;
+  }
+  
+  .tabela-classificacao table {
+    justify-content: flex-start;
+    width: 200px;
+  }
+
+ .artilharia-tabelas {
+  flex-direction: column;
+ }
+
 }
