@@ -140,14 +140,14 @@ header h1 #logo-copa{
   justify-content: center;
 }
 
-.tabela-classificacao table {
+#div-classificacao table {
   border-collapse: collapse;
   text-align: center;
   width: 80%;
   height: 300px;
 }
 
-.tabela-classificacao table tr:nth-child(even) {
+#div-classificacao table tr:nth-child(even) {
   background-color: rgb(249, 247, 247);
 }
 
@@ -223,7 +223,7 @@ header h1 #logo-copa{
   background-color: rgb(249, 247, 247);
 }
 
-footer {
+.footer {
   display: flex;
   width: 100%;
   height: 60px;
@@ -239,8 +239,41 @@ footer {
   
   .tabela-times table {
   justify-content: flex-start;
-  width: 280px;
-  overflow-x: hidden;
+  width: 750px;
+  }
+
+  .nome-time-escudo {
+    justify-content: center;
+  }
+
+  .time-ajax {
+    width: 100%;
+    overflow-x: auto;
+    margin-bottom: 30px;
+  }
+
+  .time-arsenal {
+    width: 100%;
+    overflow-x: auto;
+    margin-bottom: 30px;
+  }
+
+  .time-besiktas {
+    width: 100%;
+    overflow-x: auto;
+    margin-bottom: 30px;
+  }
+
+  .time-mercenarios {
+    width: 100%;
+    overflow-x: auto;
+    margin-bottom: 30px;
+  }
+
+  .time-otopatama {
+    width: 100%;
+    overflow-x: auto;
+    margin-bottom: 30px;
   }
 
   .titulos-principais {
@@ -257,17 +290,39 @@ footer {
   }
 
   .tabela-centralizar {
+    width: 100%;
+    overflow-x: auto;
     display: flex;
     justify-content: flex-start;
   }
-  
-  .tabela-classificacao table {
-    justify-content: flex-start;
-    width: 200px;
+
+  .tabela-head-coluna {
+    padding: 20px;
   }
 
  .artilharia-tabelas {
   flex-direction: column;
  }
+
+ .artilharia table {
+  width: 300px;
+}
+
+.div-jogo-semana table caption h4 {
+  font-size: 15px;
+}
+
+.div-jogo-semana table tbody tr td {
+  font-size: 15px;
+}
+
+.logo-time-menor img {
+  width: 40px;
+  height: 40px;
+}
+
+.footer {
+  font-size: 10px;
+}
 
 }
