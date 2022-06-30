@@ -267,6 +267,12 @@ header h1 #logo-pelada{
   justify-content: center;
   align-items: center;
   margin-top: 50px;
+  gap: 10px;
+}
+
+.logo-footer i {
+  color: white;
+  text-decoration: none;
 }
 
 /*Responsividade*/
