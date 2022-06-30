@@ -45,8 +45,8 @@ header a {
   font-size: larger;
 }
 
-header h1 #logo-copa{
-  width: 200px;
+header h1 #logo-pelada{
+  width: 150px;
   height: 100px;
 }
 
@@ -54,6 +54,16 @@ header h1 #logo-copa{
   width: 90%;
   margin-left: 5%;
   margin-top: 105px; /*Cabeçalho fixo*/
+}
+
+#logo-copa {
+  display: flex;
+  justify-content: center;
+}
+
+#logo-copa img {
+  width: 650px;
+  height: 400px;
 }
 
 
@@ -410,6 +420,17 @@ header h1 #logo-copa{
     font-size: 17px;
   }
 
+  #logo-copa {
+    display: flex;
+    justify-content: center;
+  }
+  
+  #logo-copa img {
+    width: 300px;
+    height: 200px;
+    margin-top: 100px;
+  }
+
   .tabela-times table {
   justify-content: flex-start;
   width: 750px;
@@ -555,6 +576,17 @@ header h1 #logo-copa{
     font-size: small;
   }
 
+  #logo-copa {
+    display: flex;
+    justify-content: center;
+  }
+  
+  #logo-copa img {
+    width: 300px;
+    height: 200px;
+    margin-top: 100px;
+  }
+
   .tabela-times table {
   justify-content: flex-start;
   width: 750px;
@@ -624,7 +656,7 @@ header h1 #logo-copa{
   }
 
   .div-jogo-semana table tbody tr td {
-  font-size: 15px;
+  font-size: 13px;
   }
 
   #div-jogo-final {
