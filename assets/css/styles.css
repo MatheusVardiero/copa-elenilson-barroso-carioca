@@ -267,7 +267,7 @@ header h1 #logo-pelada{
   justify-content: center;
   align-items: center;
   margin-top: 50px;
-  gap: 10px;
+  gap: 5px;
 }
 
 .logo-footer i {
@@ -694,7 +694,8 @@ header h1 #logo-pelada{
   }
 
   .footer {
-  font-size: 11px;
+  font-size: 10px;
+  gap: 5px;
   }
 
 }
